@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>BONSO | Dev</title>
+	<link rel="stylesheet" type="text/css" href="content/css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,900' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:100,300' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+</head>
+<body>
+	<div class="section header">
+		<div class="wrapper">
+			<a href="about.html">About</a>
+			<a href="work.html">Work</a>
+			<a href="cardshirt.html">CardShirt</a>
+			<a href="dev.html" class="dev">Secret</a>
+			<span class="x">X</span>
+		</div>
+		<div class="section bottom alwayson">
+			<div class="container">
+				<div class="float-left">
+					<a href="index.html"><img class="logo" src="images/bonso-logo-text.png"></a>
+				</div>
+				<div class="float-right">
+					<img class="sandwichbar" src="images/sandwich-bar.png">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section hero dev">
+		<div class="container">
+			<img class="h1equiv" src="images/bonsodev-logo-icon.png">
+			<h2>coming soon</h2>
+			<a href="#" class="button">stay updated</a>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$(window).scroll(function () {
+            var scrollTop = $(window).scrollTop();
+            if (scrollTop > 10) {
+                $('.section.bottom').addClass('on');
+            }
+            else {
+                $('.section.bottom').removeClass('on');
+            }
+        });
+
+        $('.sandwichbar').click(function() {
+        	$('.section.header').addClass('on');
+        	$('.section.bottom').addClass('on');
+        });
+
+        $('span.x').click(function() {
+        	$('.section.header').removeClass('on');
+        	$('.section.bottom').removeClass('on');
+        });
+
+	    $('.card').click(function(){
+	        $(this).addClass('flipped').mouseleave(function(){
+	            $(this).removeClass('flipped');
+	        });
+	        return false;
+	    });
+	</script>
+</body>

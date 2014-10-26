@@ -1,0 +1,693 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  text-rendering: optimizeLegibility;
+  font-size: 100%;
+  letter-spacing: 1.25px;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 3.75rem;
+}
+
+.section {
+  padding: 5rem 0;
+  margin: 0;
+  clear: both;
+}
+
+.container {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+}
+.container p {
+  text-align: justify;
+  font-size: 1.15rem;
+  font-weight: 300;
+}
+
+.section.header {
+  position: fixed;
+  top: -100%;
+  right: 0;
+  bottom: 100%;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  overflow: visible;
+  z-index: 5;
+  -webkit-transition: top 0.65s, bottom 0.65s;
+  -moz-transition: top 0.65s, bottom 0.65s;
+  transition: top 0.65s, bottom 0.65s;
+}
+.section.header .wrapper {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+.section.header .wrapper a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  font-size: 4rem;
+  margin: 3rem;
+}
+.section.header .wrapper a.dev {
+  color: #ed1c24;
+}
+.section.header .wrapper span.x {
+  color: white;
+  display: block;
+  position: absolute;
+  top: 5rem;
+  right: 15%;
+  font-size: 2rem;
+  font-weight: 900;
+  cursor: pointer;
+}
+.section.header .section.bottom {
+  padding: 1.5rem 0;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: 0;
+  overflow: visible;
+  background-color: transparent;
+  -webkit-transition: padding 0.5s ease-out, background-color 0.25s ease-out;
+  -moz-transition: padding 0.5s ease-out, background-color 0.25s ease-out;
+  transition: padding 0.5s ease-out, background-color 0.25s ease-out;
+}
+.section.header .section.bottom .float-left {
+  text-align: left;
+  margin-left: 2rem;
+  -webkit-transition: margin-left 0.5s;
+  -moz-transition: margin-left 0.5s;
+  transition: margin-left 0.5s;
+}
+.section.header .section.bottom .float-left .logo {
+  height: 2rem;
+}
+.section.header .section.bottom .float-right {
+  text-align: right;
+  margin-right: 2rem;
+  -webkit-transition: margin-right 0.5s;
+  -moz-transition: margin-right 0.5s;
+  transition: margin-right 0.5s;
+}
+.section.header .section.bottom .float-right .sandwichbar {
+  height: 1rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+.section.header .section.bottom.on, .section.header .section.bottom.alwayson {
+  padding: 0.5rem 0;
+  box-shadow: rgba(0, 0, 0, 0.85) 0 0 0.25rem;
+  background-color: white;
+}
+.section.header .section.bottom.on .float-left, .section.header .section.bottom.alwayson .float-left {
+  margin-left: 0;
+}
+.section.header .section.bottom.on .float-right, .section.header .section.bottom.alwayson .float-right {
+  margin-right: 0;
+}
+
+.section.header.on {
+  top: 0;
+  bottom: 0;
+}
+
+.section.hero {
+  background-color: white;
+  margin-top: 0;
+  padding-top: 8.25rem;
+}
+.section.hero h1 {
+  font-size: 5rem;
+}
+
+.section.hero.dev {
+  background-image: url("../../images/background-cover.png"), url("../../images/hero-background.jpg");
+  background-position: 0 0;
+  background-size: auto auto, 100% 100%;
+  background-repeat: repeat, no-repeat;
+  /*min-height: 20rem;*/
+  height: 100%;
+  box-sizing: border-box;
+}
+.section.hero.dev h2 {
+  font-style: "Roboto", sans-serif;
+  font-size: 3rem;
+  font-weight: 100;
+  color: white;
+  margin-top: 0;
+}
+
+.section.hero.about, .section.hero.work, .section.hero.cardshirt {
+  background-image: url("../../images/background-cover.png"), url("../../images/louisville-skyline.png");
+  background-position: 0 0;
+  background-size: auto auto, 100% 100%;
+  background-repeat: repeat, no-repeat;
+}
+.section.hero.about img.h1equiv, .section.hero.work img.h1equiv, .section.hero.cardshirt img.h1equiv {
+  height: 8rem;
+}
+.section.hero.about h1, .section.hero.work h1, .section.hero.cardshirt h1 {
+  color: white;
+  margin-top: 0;
+}
+
+.section.hero.work {
+  background-image: url("../../images/background-cover.png"), url("../../images/work-background.jpg");
+}
+
+.section.hero.cardshirt {
+  background-image: url("../../images/background-cover.png"), url("../../images/black-overlay.png"), url("../../images/uofl-logo-blur.gif");
+  background-position: 0 0, 0 0, 50% 50%;
+  background-size: auto auto, 100% 100%, auto auto;
+  background-repeat: repeat, no-repeat, no-repeat;
+  padding: 10rem;
+}
+.section.hero.cardshirt img.h1equiv {
+  height: 8rem;
+}
+
+.section.content {
+  position: relative;
+  background-color: white;
+  z-index: 2;
+}
+
+.section.content.red {
+  background-color: #ba0202;
+  color: white;
+}
+
+.section.content.black {
+  background-color: #232323;
+  color: white;
+}
+
+.section.content.logo {
+  background-image: url("../../images/uofl-logo-blur-black.png");
+  background-size: 30% auto;
+  background-position: -10% 150%;
+  background-repeat: no-repeat;
+}
+
+.section.content.shadow-top {
+  box-shadow: rgba(0, 0, 0, 0.85) 0 -0.25rem 0.5rem;
+}
+
+.section.content.shadow-bottom {
+  box-shadow: rgba(0, 0, 0, 0.85) 0 0.25rem 0.5rem;
+}
+
+.section.content.shadow-top-bottom {
+  box-shadow: rgba(0, 0, 0, 0.85) 0 0 1rem;
+}
+
+.section.tiles {
+  background-color: #ed1c24;
+}
+.section.tiles .container {
+  overflow: visible;
+}
+.section.tiles .container.special {
+  max-width: 70rem;
+}
+.section.tiles .box {
+  width: 33.333333333333333333333333333333%;
+  height: 20rem;
+  margin: 0;
+  position: relative;
+  display: inline-block;
+  float: left;
+  text-align: center;
+  overflow: hidden;
+  -webkit-perspective: 800;
+  -moz-perspective: 800;
+  perspective: 800;
+}
+.section.tiles .box .card {
+  width: 100%;
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.section.tiles .box .card .face {
+  position: absolute;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 95%;
+  width: 95%;
+  margin: auto;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.section.tiles .box .card .face.front {
+  z-index: 1;
+}
+.section.tiles .box .card .face.back {
+  text-align: center;
+  background-color: white;
+  padding: 4rem 2rem 0;
+  -webkit-transform: rotatex(-180deg);
+  -moz-transform: rotatex(-180deg);
+  -ms-transform: rotatex(-180deg);
+  -o-transform: rotatex(-180deg);
+  transform: rotatex(-180deg);
+  z-index: 3;
+}
+.section.tiles .box .card .face.back h2 {
+  color: #27a9e1;
+}
+.section.tiles .box .card .face.back p.center {
+  text-align: center;
+}
+.section.tiles .box .card.flipped {
+  -webkit-transform: rotatex(-180deg);
+  -moz-transform: rotatex(-180deg);
+  -ms-transform: rotatex(-180deg);
+  -o-transform: rotatex(-180deg);
+  transform: rotatex(-180deg);
+}
+.section.tiles .box .details {
+  position: absolute;
+  bottom: -40%;
+  left: 0;
+  right: 0;
+  height: 40%;
+  box-sizing: border-box;
+  padding-top: 2.5rem;
+  background-color: rgba(0, 0, 0, 0.75);
+  font-size: 1.5rem;
+  color: white;
+  -webkit-transition: bottom 0.25s ease-in;
+  -moz-transition: bottom 0.25s ease-in;
+  transition: bottom 0.25s ease-in;
+  z-index: 2;
+}
+.section.tiles .box .details span {
+  color: #27a9e1;
+  cursor: pointer;
+}
+.section.tiles .box .details span:hover {
+  text-decoration: underline;
+}
+.section.tiles .box .card:hover > .details {
+  bottom: 0;
+}
+.section.tiles .box .card.flipped > .details {
+  bottom: -40%;
+}
+.section.tiles .box.wide {
+  width: 66.666666666666666666666666666667%;
+}
+.section.tiles .box.tall {
+  height: 40rem;
+}
+.section.tiles .box.tall .card .face.back {
+  padding-top: 11rem;
+}
+.section.tiles .box.tall .details {
+  padding-top: 7rem;
+}
+.section.tiles .box.small {
+  height: 10rem;
+  width: 16.666666666666666666666666666667%;
+}
+.section.tiles .box.small .card .face.back {
+  padding-top: 0;
+}
+.section.tiles .box.small .card .face.back h2 {
+  font-size: 1.25rem;
+}
+.section.tiles .box.small .card .face.back p {
+  font-size: 0.85rem;
+}
+.section.tiles .box.small .details {
+  padding-top: 1.25rem;
+}
+
+.section.store {
+  background-color: #ed1c24;
+  position: relative;
+}
+.section.store .container {
+  box-sizing: border-box;
+  max-width: 100%;
+  padding: 2rem;
+}
+.section.store .wrapper {
+  width: 25%;
+}
+.section.store .wrapper .item {
+  padding: 0.5rem 0;
+  margin: 0.5rem;
+  text-align: center;
+  background-color: #ececec;
+  -webkit-transition: box-shadow 0.25s ease-in;
+  -moz-transition: box-shadow 0.25s ease-in;
+  transition: box-shadow 0.25s ease-in;
+}
+.section.store .wrapper .item img {
+  width: 95%;
+}
+.section.store .wrapper .item h2 {
+  margin: 0.25rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+.section.store .wrapper .item h2:hover {
+  text-decoration: underline;
+}
+.section.store .wrapper .item p {
+  text-align: center;
+  margin: 0.25rem;
+  font-size: 0.825rem;
+}
+.section.store .wrapper .item:hover {
+  box-shadow: rgba(0, 0, 0, 0.85) 0 0 0.75rem;
+}
+.section.store .more {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 6rem;
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.75);
+  font-size: 4rem;
+  font-weight: 100;
+  opacity: 0;
+  cursor: pointer;
+  -webkit-transition: opacity 0.25s ease-in;
+  -moz-transition: opacity 0.25s ease-in;
+  transition: opacity 0.25s ease-in;
+}
+.section.store .more:hover {
+  opacity: 1;
+}
+
+.section.blank {
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 1;
+}
+.section.blank h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  background-color: white;
+  display: inline-block;
+  padding: 1rem;
+  margin: 0;
+  box-shadow: rgba(0, 0, 0, 0.85) 0 0 1rem;
+}
+.section.blank h1 img {
+  display: inline;
+  height: 3.725rem;
+  margin: 0;
+  box-shadow: none;
+}
+.section.blank .pics {
+  margin: 2rem 0;
+}
+.section.blank img {
+  display: inline-block;
+  width: 20%;
+  margin: 2%;
+  box-shadow: rgba(0, 0, 0, 0.85) 0 0 1rem;
+}
+
+.section.blank.first {
+  background-image: url("../../images/cardshirt-background1.jpg");
+}
+
+.section.blank.second {
+  background-image: url("../../images/uoflcardinals-background.jpg");
+}
+
+.section.blank.third {
+  background-image: url("../../images/louisvilleskyline-background.jpg");
+}
+
+.section.beforefooter {
+  background-color: #232323;
+  /*	background-image: url('../../images/creativebackground.png');
+  	background-repeat: repeat-x;
+  	background-position: auto -1rem;
+  	background-size: auto 2rem;*/
+  color: white;
+  position: relative;
+}
+.section.beforefooter h1 {
+  margin-top: 0;
+}
+.section.beforefooter p {
+  text-align: center;
+}
+.section.beforefooter .bottomborder {
+  background-image: url("../../images/creativebackground.png");
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  height: 3rem;
+  position: absolute;
+  bottom: -1rem;
+  right: 0;
+  left: 0;
+}
+
+.section.beforefooter.about {
+  background-color: #27a9e1;
+}
+.section.beforefooter.about .button {
+  border-color: black;
+}
+
+.section.map {
+  position: relative;
+  padding: 0;
+}
+.section.map .cover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  text-align: center;
+  z-index: 4;
+}
+.section.map #map-canvas {
+  height: 15rem;
+  z-index: 2;
+}
+
+.section.footer {
+  background-color: white;
+}
+.section.footer .float-left {
+  width: 30%;
+}
+.section.footer .float-left img {
+  display: block;
+  height: 3rem;
+  margin: 0.25rem;
+}
+.section.footer .float-left p {
+  margin: 0.125rem;
+}
+.section.footer .float-right {
+  width: 60%;
+}
+.section.footer .float-right .column {
+  padding-top: 0;
+  text-align: left;
+}
+.section.footer .float-right .size-4 {
+  width: 25%;
+}
+.section.footer .float-right h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-top: 0;
+  color: #27a9e1;
+}
+.section.footer .float-right a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  margin: 0.5rem 0;
+}
+.section.footer .float-right a:hover {
+  text-decoration: underline;
+}
+
+.blackcover {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  -webkit-transition: opacity 0.4s ease-out;
+  -moz-transition: opacity 0.4s ease-out;
+  transition: opacity 0.4s ease-out;
+  z-index: -1;
+}
+.blackcover .product {
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 80%;
+  margin: 5rem auto;
+  padding: 2rem 3rem;
+  text-align: center;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.85) 0 0 1rem;
+  overflow: scroll;
+}
+.blackcover .product .item {
+  float: left;
+  width: 40%;
+  max-height: 80%;
+  margin: 0 5%;
+}
+.blackcover .product .contained {
+  padding: 2rem 0;
+  width: 50%;
+  float: right;
+}
+.blackcover .product .contained h1 {
+  margin: 0;
+  font-size: 3rem;
+}
+.blackcover .product .contained .button {
+  margin: 1rem 0;
+  color: black;
+}
+.blackcover .product .contained p {
+  text-align: justify;
+}
+.blackcover .product .contained span.social {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 30%;
+  margin: 0 1%;
+  padding: 0.75rem 0.5rem;
+  text-align: right;
+  background-color: black;
+  color: white;
+}
+.blackcover .product span.close {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  cursor: pointer;
+  font-size: 1.75rem;
+}
+
+.blackcover.on {
+  opacity: 1;
+  z-index: 4;
+}
+
+.button {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: normal;
+  padding: 1rem 4rem;
+  background-color: transparent;
+  border: 0.125rem solid #27a9e1;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-transition: all 0.25s;
+  -moz-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+.button:hover {
+  background-color: #ed1c24;
+  text-decoration: none;
+}
+
+.clear {
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+
+.row {
+  width: 100%;
+  overflow: auto;
+  clear: both;
+}
+
+.column {
+  position: relative;
+  float: left;
+  width: 100%;
+  padding: 1.25rem;
+  margin: 0.25rem;
+}
+
+.size-12 {
+  max-width: 96.66666666666667%;
+  text-align: center;
+}
+
+.size-6 {
+  text-align: center;
+  width: 46.875%;
+}
+
+.size-4 {
+  text-align: center;
+  width: 29.5%;
+}
+
+.float-left {
+  float: left !important;
+}
+
+.float-right {
+  float: right !important;
+}
+
+img.h1equiv {
+  height: 15rem;
+  margin: 2rem 0;
+}
