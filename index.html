@@ -4,6 +4,8 @@
 	<meta charset="utf-8">
 	<title>BONSO</title>
 	<link rel="stylesheet" type="text/css" href="content/css/style.css">
+	<link rel="stylesheet" type="text/css" href="content/css/media-queries.css">
+	<meta name="viewport" content="width=device-width, target-densityDpi=device-dpi, initial-scale=1.0, user-scalable=no">
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,900' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto:100,300' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -66,7 +68,7 @@
 			</div>
 			<div class="box">
 				<div class="card">
-					<img class="face front" src="images/tiles/nm.jpg">
+					<img class="face front" src="images/tiles/default-clickhere.png">
 					<div class="face back">
 						<h2>Card Back</h2>
 						<p>Stuff goes here. Lorem ipsum dolor sit amet etcetera etcetera.</p>
@@ -136,9 +138,9 @@
 					</div>
 				</div>
 			</div>
-			<div class="box">
+			<div class="box wide">
 				<div class="card">
-					<img class="face front" src="images/tiles/tulipe.jpg">
+					<img class="face front" src="images/tiles/swapp.png">
 					<div class="face back">
 						<h2>Card Back</h2>
 						<p>Stuff goes here. Lorem ipsum dolor sit amet etcetera etcetera.</p>
@@ -148,9 +150,9 @@
 					</div>
 				</div>
 			</div>
-			<div class="box wide">
+			<div class="box">
 				<div class="card">
-					<img class="face front" src="images/tiles/swapp.png">
+					<img class="face front" src="images/tiles/tulipe.jpg">
 					<div class="face back">
 						<h2>Card Back</h2>
 						<p>Stuff goes here. Lorem ipsum dolor sit amet etcetera etcetera.</p>
@@ -228,12 +230,23 @@
         	$('.section.header').removeClass('on');
         });
 
-	    $('.card > .details > span').click(function(){
-	        $(this).parent().parent().addClass('flipped').mouseleave(function(){
-	            $(this).removeClass('flipped');
-	        });
-	        return false;
-	    });
+		// var supportsTouch = 'ontouchstart' in window || navigator.msMaxTouchPoints;
+		//
+		// if (supportsTouch) {
+		// 	console.log('touch');
+		$('.details').addClass('touch');
+		$('.card').click(function() {
+			$(this).toggleClass('flipped');
+		});
+		// } else {
+		// 	console.log('notouch');
+		// 	$('.card > .details > span').click(function(){
+		// 		$(this).parent().parent().addClass('flipped').mouseleave(function(){
+		// 			$(this).removeClass('flipped');
+		// 		});
+		// 		return false;
+		// 	});
+		// }
 	</script>
 </body>
 </html>
