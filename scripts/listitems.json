@@ -6,9 +6,9 @@
         "name": "Sennheiser Urbanite Over-Ear Headphones",
         "images":
             [
-                { "url": "http://sennheiser-urbanite.com/images/rotator/over/black.png" },
-                { "url": "https://sennheiser.s3.amazonaws.com/images/phones/1.jpg" },
-                { "url": "http://o.aolcdn.com/hss/storage/midas/9d626dd1655e9b8ced34842b4a04bb6f/200693804/senn.jpg" }
+                "http://sennheiser-urbanite.com/images/rotator/over/black.png",
+                "https://sennheiser.s3.amazonaws.com/images/phones/1.jpg",
+                "http://o.aolcdn.com/hss/storage/midas/9d626dd1655e9b8ced34842b4a04bb6f/200693804/senn.jpg"
             ],
         "price": "$249.95",
         "description": "I'll fill this out later once I realize this actually works."
@@ -20,9 +20,9 @@
         "name": "Moto 360",
         "images":
             [
-                { "url": "http://cdn-www.xda-developers.com/wp-content/uploads/2014/09/moto-360-smartwatch-580-90.jpg" },
-                { "url": "http://cdn.slashgear.com/wp-content/uploads/2014/03/Moto-360_Map-820x420.jpg" },
-                { "url": "http://o.aolcdn.com/hss/storage/midas/e22a1ac6ea90bbf6eaa1c093f47fdc0f/200699283/moto360steellead.JPG" }
+                "http://cdn-www.xda-developers.com/wp-content/uploads/2014/09/moto-360-smartwatch-580-90.jpg",
+                "http://cdn.slashgear.com/wp-content/uploads/2014/03/Moto-360_Map-820x420.jpg",
+                "http://o.aolcdn.com/hss/storage/midas/e22a1ac6ea90bbf6eaa1c093f47fdc0f/200699283/moto360steellead.JPG"
             ],
         "price": "$249.99",
         "description": "I'll fill this out later once I realize this actually works."
@@ -34,8 +34,8 @@
         "name": "Droid Turbo",
         "images":
             [
-                { "url": "http://www.technobuffalo.com/wp-content/uploads/2014/10/Motorola-Droid-Turbo-Verizon-5-1280x853.jpg" },
-                { "url": "http://www.androidcentral.com/sites/androidcentral.com/files/styles/large/public/article_images/2014/10/motorola-droid-turbo_0.gif?itok=fsiCV8VG" }
+                "http://www.technobuffalo.com/wp-content/uploads/2014/10/Motorola-Droid-Turbo-Verizon-5-1280x853.jpg",
+                "http://www.androidcentral.com/sites/androidcentral.com/files/styles/large/public/article_images/2014/10/motorola-droid-turbo_0.gif?itok=fsiCV8VG"
             ],
         "price": "It's Complicated",
         "description": "I'll fill this out later once I realize this actually works."
@@ -47,9 +47,9 @@
         "name": "Xbox One",
         "images":
             [
-                { "url": "http://compass.xbox.com/assets/94/60/946002c9-dfc7-44fe-b20a-abf175c49d42.jpg?n=og-share-meet-xbox-one-955x955.jpg" },
-                { "url": "http://wpmedia.o.canada.com/2013/05/games_xbox_27026395.jpg" },
-                { "url": "http://static.trustedreviews.com/94/00002a09b/ba72_orh616w616/Xbox-One-console1-640.jpg" }
+                "http://compass.xbox.com/assets/94/60/946002c9-dfc7-44fe-b20a-abf175c49d42.jpg?n=og-share-meet-xbox-one-955x955.jpg",
+                "http://wpmedia.o.canada.com/2013/05/games_xbox_27026395.jpg",
+                "http://static.trustedreviews.com/94/00002a09b/ba72_orh616w616/Xbox-One-console1-640.jpg"
             ],
         "price": "$349.99",
         "description": "I'll fill this out later once I realize this actually works."
@@ -61,9 +61,9 @@
         "name": "Xbox One",
         "images":
             [
-                { "url": "http://compass.xbox.com/assets/94/60/946002c9-dfc7-44fe-b20a-abf175c49d42.jpg?n=og-share-meet-xbox-one-955x955.jpg" },
-                { "url": "http://wpmedia.o.canada.com/2013/05/games_xbox_27026395.jpg" },
-                { "url": "http://static.trustedreviews.com/94/00002a09b/ba72_orh616w616/Xbox-One-console1-640.jpg" }
+                "http://compass.xbox.com/assets/94/60/946002c9-dfc7-44fe-b20a-abf175c49d42.jpg?n=og-share-meet-xbox-one-955x955.jpg",
+                "http://wpmedia.o.canada.com/2013/05/games_xbox_27026395.jpg",
+                "http://static.trustedreviews.com/94/00002a09b/ba72_orh616w616/Xbox-One-console1-640.jpg"
             ],
         "price": "$349.99",
         "description": "I'll fill this out later once I realize this actually works."
