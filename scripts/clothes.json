@@ -1,0 +1,10 @@
+[
+    {
+        "id": 1,
+        "category": "c",
+        "name": "Droid Turbo",
+        "imageSrc": "http://www.technobuffalo.com/wp-content/uploads/2014/10/Motorola-Droid-Turbo-Verizon-5-1280x853.jpg",
+        "price": "It's Complicated",
+        "description": "I'll fill this out later once I realize this actually works."
+    }
+]
