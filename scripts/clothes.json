@@ -2,9 +2,49 @@
     {
         "id": 1,
         "category": "c",
-        "name": "Droid Turbo",
-        "imageSrc": "http://www.technobuffalo.com/wp-content/uploads/2014/10/Motorola-Droid-Turbo-Verizon-5-1280x853.jpg",
-        "price": "It's Complicated",
+        "name": "Dress Shoes - Timberland",
+        "imageSrc": "http://tbl.imageg.net/graphics/product_images/pTBL1-17109372v275.jpg",
+        "price": "$140.00",
         "description": "I'll fill this out later once I realize this actually works."
-    }
+    },
+    {
+        "id": 2,
+        "category": "c",
+        "name": "Tennis Shoes - Nike Air Force 1",
+        "imageSrc": "http://images.champssports.com/is/image//EBFL/24300657_fr_sc7_whwh?hei=2000&wid=2000",
+        "price": "$89.99",
+        "description": "I'll fill this out later once I realize this actually works."
+    },
+    {
+        "id": 3,
+        "category": "c",
+        "name": "Tennis Shoes - Jordan",
+        "imageSrc": "http://images.champssports.com/is/image//EBFL/83366020_fr_jordan_sc7?hei=2000&wid=2000",
+        "price": "$79.99",
+        "description": "I'll fill this out later once I realize this actually works."
+    },
+    {
+        "id": 4,
+        "category": "c",
+        "name": "Dress Pants",
+        "imageSrc": "http://images.express.com/is/image/expressfashion/new_35_383_3120_539_45?cache=on&wid=640&fmt=jpeg&qlt=70,1&resmode=sharp2&op_usm=1,1,5,0&fit=fit,1",
+        "price": "$69.90",
+        "description": "I'll fill this out later once I realize this actually works."
+    },
+    {
+        "id": 5,
+        "category": "c",
+        "name": "Nice Sweatpants",
+        "imageSrc": "http://i.imgur.com/VgCflMp.png",
+        "price": "$89.50",
+        "description": "I'll fill this out later once I realize this actually works."
+    },
+    {
+        "id": 6,
+        "category": "c",
+        "name": "Long-sleeved Apparel",
+        "imageSrc": "http://images.express.com/is/image/expressfashion/new_22_532_5604_058_48?cache=on&wid=640&fmt=jpeg&qlt=70,1&resmode=sharp2&op_usm=1,1,5,0&fit=fit,1",
+        "price": "$59.90",
+        "description": "I'll fill this out later once I realize this actually works."
+    },
 ]
