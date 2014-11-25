@@ -18,7 +18,7 @@
     {
         "id": 3,
         "category": "c",
-        "name": "Dress Pants",
+        "name": "Express Stretch Cotton Photographer Dress Pant",
         "imageSrc": "http://images.express.com/is/image/expressfashion/new_35_383_3120_539_45?cache=on&wid=640&fmt=jpeg&qlt=70,1&resmode=sharp2&op_usm=1,1,5,0&fit=fit,1",
         "price": "$69.90",
         "description": "I'll fill this out later once I realize this actually works."
@@ -50,21 +50,13 @@
     {
         "id": 7,
         "category": "c",
-        "name": "Jordan Flight 45 V",
-        "imageSrc": "http://images.champssports.com/is/image//EBFL/83366020_fr_jordan_sc7?hei=2000&wid=2000",
-        "price": "$79.99",
+        "name": "Stock Box Sweatpant",
+        "imageSrc": "http://d2m6i8k1q2o9d5.cloudfront.net/us/media/catalog/product/cache/1/image/538x707/9df78eab33525d08d6e5fb8d27136e95/1/9/195014_MARO_3.jpg",
+        "price": "$55.00",
         "description": "I'll fill this out later once I realize this actually works."
     },
     {
         "id": 8,
-        "category": "c",
-        "name": "Nice Sweatpants",
-        "imageSrc": "http://i.imgur.com/VgCflMp.png",
-        "price": "$89.50",
-        "description": "I'll fill this out later once I realize this actually works."
-    },
-    {
-        "id": 9,
         "category": "c",
         "name": "Long-sleeved Apparel",
         "imageSrc": "http://images.express.com/is/image/expressfashion/new_22_532_5604_058_48?cache=on&wid=640&fmt=jpeg&qlt=70,1&resmode=sharp2&op_usm=1,1,5,0&fit=fit,1",
@@ -72,11 +64,19 @@
         "description": "Have I ever mentioned that I really hate commas?"
     },
     {
-        "id": 10,
+        "id": 9,
         "category": "c",
         "name": "Jordan AJ Future",
         "imageSrc": "http://images.champssports.com/is/image//EBFL/56503021_fr_jordan_sc7?hei=2000&wid=2000",
         "price": "$149.99",
         "description": "I'll fill this out later once I realize this actually works."
-    }
+    },
+    {
+        "id": 10,
+        "category": "c",
+        "name": "Nice Sweatpants",
+        "imageSrc": "http://i.imgur.com/VgCflMp.png",
+        "price": "$89.50",
+        "description": "I'll fill this out later once I realize this actually works."
+    },
 ]
