@@ -15,7 +15,7 @@
         "imageSrc": "http://compass.xbox.com/assets/94/60/946002c9-dfc7-44fe-b20a-abf175c49d42.jpg?n=og-share-meet-xbox-one-955x955.jpg",
         "price": "$349.99",
         "interestScore": 8,
-        "description": "I'll fill this out later once I realize this actually works."
+        "description": "I've talked about the fact that I want an Xbox One for a while now, and I definitely do still want one. However, there are a lot of other things I also want, and a $350 item is kind of pushing people's budgets a bit. I'm not saying that I don't want an Xbox, just that I'm not sure if it's worth the money."
     },
     {
         "id": 3,
@@ -24,7 +24,7 @@
         "imageSrc": "https://static1.fitbit.com/simple.b-cssdisabled-png.h1b5eeed389c93a00f375564cdec89e54.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fslide-01-charge.png",
         "price": "$129.95",
         "interestScore": 9,
-        "description": "I'll fill this out later once I realize this actually works."
+        "description": "Ok, so I'd actually really love to have a Fitbit. Zachy needs to start getting in shape, and gadgets always make the process slightly more fun and enjoyable for me. It doesn't necessarily have to be the Fitbit Charge, so long as it's not that dorky looking pedometer. Gross."
     },
     {
         "id": 4,
@@ -33,7 +33,7 @@
         "imageSrc": "http://g-ecx.images-amazon.com/images/G/01/hpc/detail-page/c26-B0077L8YOO-1-l.jpg",
         "price": "$129.95",
         "interestScore": 6,
-        "description": "I'll fill this out later once I realize this actually works."
+        "description": "As you can see, the Fitbit Aria is a scale that connects wirelessly with your Fitbit wristband. It allows you to add extra data to your analysis, such as your weight, BPI, and more over a period of time, along with the standard things that your wristband tracks. It's not a must-have, and obviously I wouldn't want the scale without the wristband, but it would be really nice to have alongside the normal Fitbit."
     },
     {
         "id": 5,
@@ -42,7 +42,7 @@
         "imageSrc": "http://store.storeimages.cdn-apple.com/4205/as-images.apple.com/is/image/AppleInc/aos/published/images/M/B8/MB829/MB829?wid=800&hei=800&fmt=jpeg&qlt=95&op_sharpen=0&resMode=bicub&op_usm=0.5,0.5,0,0&iccEmbed=0&layer=comp&.v=1400690353435",
         "price": "$69.00",
         "interestScore": 5,
-        "description": "I'll fill this out later once I realize this actually works."
+        "description": "All of these Apple items are things that I'd like to accompany my Macbook Pro. In this case, a wireless mouse (specifically this Apple-branded one, since it supports OS X gestures)."
     },
     {
         "id": 6,
@@ -51,7 +51,7 @@
         "imageSrc": "http://store.storeimages.cdn-apple.com/4205/as-images.apple.com/is/image/AppleInc/aos/published/images/M/D5/MD564/MD564?wid=800&hei=800&fmt=jpeg&qlt=80&op_sharpen=0&resMode=bicub&op_usm=0.5,0.5,0,0&iccEmbed=0&layer=comp&.v=1400693447662",
         "price": "$79.00",
         "interestScore": 5,
-        "description": "I'll fill this out later once I realize this actually works."
+        "description": "All of these Apple items are things that I'd like to accompany my Macbook Pro. In this case, an external CD/DVD drive, since Macbooks don't have them built in anymore."
     },
     {
         "id": 7,
@@ -60,7 +60,7 @@
         "imageSrc": "http://store.storeimages.cdn-apple.com/4205/as-images.apple.com/is/image/AppleInc/aos/published/images/H/GM/HGM82/HGM82?wid=800&hei=800&fmt=jpeg&qlt=95&op_sharpen=0&resMode=bicub&op_usm=0.5,0.5,0,0&iccEmbed=0&layer=comp&.v=1410570037226",
         "price": "$99.95",
         "interestScore": 4,
-        "description": "I'll fill this out later once I realize this actually works."
+        "description": "All of these Apple items are things that I'd like to accompany my Macbook Pro. In this case, an all-in-one printer to replace the really crappy one that we currently have. I picked this one out because it's officially supported by Apple, which means it has the capability to print from your phone and Mac without plugging in, but I don't need this specific printer if you can find a cheaper one with comparable specs."
     },
     {
         "id": 8,
@@ -69,7 +69,7 @@
         "imageSrc": "http://store.storeimages.cdn-apple.com/4205/as-images.apple.com/is/image/AppleInc/aos/published/images/H/A0/HA009/HA009?wid=800&hei=800&fmt=jpeg&qlt=95&op_sharpen=0&resMode=bicub&op_usm=0.5,0.5,0,0&iccEmbed=0&layer=comp&.v=1400796631644",
         "price": "$69.95",
         "interestScore": 5,
-        "description": "I'll fill this out later once I realize this actually works."
+        "description": "All of these Apple items are things that I'd like to accompany my Macbook Pro. In this case, a stand for my laptop to allow it to cool itself off. As much as I love my Macbook and how compact and light it is, one of the downsides is that it has a really hard time letting heat out and gets really hot on my lap."
     },
     {
         "id": 9,
@@ -77,8 +77,8 @@
         "name": "Sennheiser Urbanite Over-Ear Headphones",
         "imageSrc": "http://sennheiser-urbanite.com/images/rotator/over/black.png",
         "price": "$249.95",
-        "interestScore": 5,
-        "description": "I'll fill this out later once I realize this actually works."
+        "interestScore": 6,
+        "description": "This is another one of those things that I actually really do want, but I know it's a bit too expensive to be practical. My current over-ear headphones are kinda breaking, so I'm looking for a replacement. I'm a bit picky with headphones though, which is why I understand that this probably isn't the most practical gift."
     },
     {
         "id": 10,
@@ -87,6 +87,6 @@
         "imageSrc": "http://cdn-www.xda-developers.com/wp-content/uploads/2014/09/moto-360-smartwatch-580-90.jpg",
         "price": "$249.99",
         "interestScore": 3,
-        "description": "I'll fill this out later once I realize this actually works."
+        "description": "I'm gonna be honest, the only reason this is even on my list is just because it's cool as heck. I mean, don't let its looks fool you - it's actually a digital smartwatch that connects to your phone and shows notifications and whatnot. However, it only works with Android phones, and it's $250, making it the least practical item on my list."
     }
 ]
